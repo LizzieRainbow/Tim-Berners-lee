@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+#profile {
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+#welcome {
+    background: linear-gradient(#ffdfb0 20%, #c782ff, #82f9ff);
+    height: 800px;
+    color: #032aab;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+#name {
+    font-family: monospace;
+    font-size: 45;
+}
+
+h2 {
+    font-family: inherit;
+}
+
+#bio {
+    background-color: bisque;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 20px;
+    font-style: oblique;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 25px auto;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 2;
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.links:hover {
+    background-color: cadetblue;
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+
+.articles {
+    font-size: 45px;
+    font-family: monospace;
+}
+
+.articles:hover{
+    color: red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px #040b8a;
+
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+
+
+}
+
+#contact {
+    background-color: antiquewhite;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+#contact h3 {
+    display: inline;
+}
+
+#contact a {
+    color: black;
+    text-shadow: none;
+}
